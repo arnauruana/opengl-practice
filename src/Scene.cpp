@@ -13,7 +13,7 @@ Scene::Scene()
 	this->quad = NULL;
 
 	this->jump = false;
-	this->renderS = false;
+	this->renderS = true;
 	this->textP = true;
 
 	this->prev = 0.f;
