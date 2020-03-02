@@ -7,8 +7,6 @@
 
 void Game::init()
 {
-	//PlaySound(TEXT("music/mario.wav"), NULL, SND_ASYNC | SND_FILENAME | SND_LOOP);
-
 	this->bPlay	  = true;
 	this->mouseA  = false;
 	this->windowF = false;
@@ -117,16 +115,8 @@ void Game::keyPressed(int key)
 		case 'm':
 		{
 			this->soundA = not this->soundA;
-			if (not this->soundA)
-			{
-				//PlaySound(NULL, NULL, 0);
-			}
-			else
-			{
-				//PlaySound(TEXT("music/mario.wav"), NULL, SND_ASYNC | SND_FILENAME | SND_LOOP);
-			}
-			break;
-		}
+            break;
+        }
 		case ' ':
 		{
 			this->scene.jump = true;

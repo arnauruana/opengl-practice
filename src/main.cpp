@@ -6,9 +6,6 @@
 #include <iostream>
 
 
-//#pragma comment(linker, "/subsystem:\"windows\" /entry:\"mainCRTStartup\"")
-
-
 const float TPF = 1000.f / Game::FPS;
 
 static int prevTime;

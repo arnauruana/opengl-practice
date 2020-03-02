@@ -144,13 +144,13 @@ void Text::initShaders()
 
 	vShader.free();
 	fShader.free();
-	vShader.initFromFile(VERTEX_SHADER, "shaders/text.vert");
+	vShader.initFromFile(VERTEX_SHADER, "rsc/shader/text.vert");
 	if (!vShader.isCompiled())
 	{
 		cout << "Vertex Shader Error" << endl;
 		cout << "" << vShader.log() << endl << endl;
 	}
-	fShader.initFromFile(FRAGMENT_SHADER, "shaders/text.frag");
+	fShader.initFromFile(FRAGMENT_SHADER, "rsc/shader/text.frag");
 	if (!fShader.isCompiled())
 	{
 		cout << "Fragment Shader Error" << endl;
