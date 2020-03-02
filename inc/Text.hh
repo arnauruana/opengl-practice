@@ -5,9 +5,9 @@
 #include <ft2build.h>
 #include FT_FREETYPE_H
 
-#include "Texture.h"
-#include "ShaderProgram.h"
-#include "TexturedQuad.h"
+#include "Texture.hh"
+#include "ShaderProgram.hh"
+#include "TexturedQuad.hh"
 
 
 #define NUM_CHARACTERS (128 - 32)

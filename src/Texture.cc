@@ -1,5 +1,6 @@
 #include <SOIL/SOIL.h>
-#include "Texture.h"
+
+#include "Texture.hh"
 
 
 using namespace std;

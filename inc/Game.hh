@@ -2,7 +2,7 @@
 #define _GAME_INCLUDE
 
 
-#include "Scene.h"
+#include "Scene.hh"
 
 
 /*

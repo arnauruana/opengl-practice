@@ -1,5 +1,6 @@
+#include "Shader.hh"
+
 #include <fstream>
-#include "Shader.h"
 
 
 using namespace std;
@@ -79,4 +80,3 @@ bool Shader::loadShaderSource(const string& filename, string& shaderSource)
 
 	return true;
 }
-

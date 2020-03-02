@@ -1,4 +1,4 @@
-#include "Game.h"
+#include "Game.hh"
 
 #include <GL/glut.h>
 #include <GL/glew.h>

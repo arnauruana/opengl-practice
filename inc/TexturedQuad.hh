@@ -3,8 +3,8 @@
 
 
 #include <glm/glm.hpp>
-#include "Texture.h"
-#include "ShaderProgram.h"
+#include "Texture.hh"
+#include "ShaderProgram.hh"
 
 
 class TexturedQuad

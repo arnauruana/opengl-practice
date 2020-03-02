@@ -1,7 +1,7 @@
 #include <GL/glew.h>
 #include <GL/gl.h>
 
-#include "Quad.h"
+#include "Quad.hh"
 
 
 Quad::Quad(float x, float y, float width, float height, ShaderProgram& program)

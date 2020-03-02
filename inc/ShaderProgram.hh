@@ -2,7 +2,7 @@
 #define _SHADER_PROGRAM_INCLUDE
 
 
-#include "Shader.h"
+#include "Shader.hh"
 
 #include <GL/glew.h>
 #include <glm/glm.hpp>

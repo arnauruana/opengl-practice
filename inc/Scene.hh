@@ -2,10 +2,10 @@
 #define _SCENE_INCLUDE
 
 
-#include "Quad.h"
-#include "ShaderProgram.h"
-#include "Text.h"
-#include "TexturedQuad.h"
+#include "Quad.hh"
+#include "ShaderProgram.hh"
+#include "Text.hh"
+#include "TexturedQuad.hh"
 
 #include <glm/glm.hpp>
 
