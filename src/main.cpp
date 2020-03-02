@@ -94,7 +94,7 @@ inline void initWindow(int argc, char** argv)
 	glutInit(&argc, argv);
 	glutInitDisplayMode(GLUT_RGBA | GLUT_DOUBLE | GLUT_DEPTH);
 	glutInitWindowSize(Game::DEFAULT_WINDOW_WIDTH, Game::DEFAULT_WINDOW_HEIGHT);
-	glutInitWindowPosition((glutGet(GLUT_SCREEN_WIDTH)  - Game::DEFAULT_WINDOW_WIDTH)  / 2 + 1920/2,
+	glutInitWindowPosition((glutGet(GLUT_SCREEN_WIDTH)  - Game::DEFAULT_WINDOW_WIDTH)  / 2,
 						   (glutGet(GLUT_SCREEN_HEIGHT) - Game::DEFAULT_WINDOW_HEIGHT) / 2);
 	glutCreateWindow(argv[0]);
 }

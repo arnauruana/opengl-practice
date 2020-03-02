@@ -1,5 +1,9 @@
 # opengl-practice
 
+OpneGL practice with different problems.
+
 ## Install
 
-sudo pacman -S --neeeded glew glm glut freetype2 soil
+~~~bash
+sudo pacman -Syu glew glm glut freetype2 soil make qt5-base --needed --noconfirm
+~~~
